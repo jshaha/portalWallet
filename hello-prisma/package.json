@@ -1,0 +1,25 @@
+{
+  "name": "hello-prisma",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "queries": "ts-node ./src/queries.ts",
+    "caching": "ts-node ./src/caching.ts",
+    "realtime": "ts-node ./src/realtime.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "6.4.1",
+    "@prisma/extension-accelerate": "1.2.2",
+    "@prisma/extension-pulse": "1.2.2",
+    "@types/node": "22.13.5",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "6.4.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}
